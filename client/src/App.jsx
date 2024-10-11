@@ -114,7 +114,7 @@ const App = () => {
           <Route path="yeild-predictor" element={<YeildPredictor />}></Route>
           <Route path="/category/:slug" element={<CategoryPage />} />
 
-          <Route path="/all-bids" element={<AllBids/>}></Route>
+          <Route path="/all-bids" element={<AllBids />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
